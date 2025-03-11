@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\ViewMenuScripts\CreditsPg2MenuView.cs" />
     <Compile Include="Assets\Scripts\TriggerScripts\LightFlicker.cs" />
     <Compile Include="Assets\Scripts\ViewMenuScripts\ViewManager.cs" />
+    <Compile Include="Assets\Scripts\Player Controller\PlayerController.cs" />
     <Compile Include="Assets\Scripts\EasterEggMusic.cs" />
     <Compile Include="Assets\Scripts\ViewMenuScripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\ViewMenuScripts\MainMenuView.cs" />

@@ -354,6 +354,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/DoNotDestroy.cs"
 "Assets/Scripts/EasterEggMusic.cs"
+"Assets/Scripts/Player Controller/PlayerController.cs"
 "Assets/Scripts/TriggerScripts/LightFlicker.cs"
 "Assets/Scripts/ViewMenuScripts/AudioManager.cs"
 "Assets/Scripts/ViewMenuScripts/CreditsPg1MenuView.cs"
