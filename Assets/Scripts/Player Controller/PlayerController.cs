@@ -12,13 +12,6 @@ public class PlayerController : MonoBehaviour
     public Transform head;
     public Camera camera;
 
-    [Header("Camera Effects")]
-    public float baseCameraHeight = .85f;
-    public float walkBobbingRate = .75f;
-    public float runBobbingRate = 1f;
-    public float maxWalkBobbingOffset = .2f;
-    public float maxRunBobbingOffset = .3f;
-
 
     [Header("Configurations")]
     public float walkSpeed;
@@ -26,23 +19,40 @@ public class PlayerController : MonoBehaviour
     public float jumpSpeed;
     public float itemPickupDistance;
 
+
+
+    [Header("Camera Effects")]
+    public float baseCameraHeight = .85f;
+
+    public float walkBobbingRate = .75f;
+    public float runBobbingRate = 1f;
+    public float maxWalkBobbingOffset = .2f;
+    public float maxRunBobbingOffset = .3f;
+
+
+    [Header("Audio")]
+    public AudioSource audioWalk;
+    public AudioSource audioPickup;
+
+
     [Header("Runtime")]
     Vector3 newVelocity;
     bool isGrounded = false;
     bool isJumping = false;
+
     Transform attachedObject = null;
-    float attachedDistance = 0f;
+    float attachedDistance = 2.75f;                                  //was set to 0 before
 
-    [Header("Audio")]
-    public AudioSource audioWalk;
-
-    void Start() {
+    void Start()
+    {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+
     }
 
     // Update is called once per frame
-    void Update(){
+    void Update()
+    {
 
         //Horizontal rotation
         transform.Rotate(Vector3.up * Input.GetAxis("Mouse X") * 2f);
@@ -54,8 +64,10 @@ public class PlayerController : MonoBehaviour
         newVelocity.z = Input.GetAxis("Vertical") * speed;
 
         //Jump
-        if (isGrounded){
-            if (Input.GetKeyDown(KeyCode.Space) && !isJumping){
+        if (isGrounded)
+        {
+            if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
+            {
                 newVelocity.y = jumpSpeed;
                 isJumping = true;
             }
@@ -63,7 +75,7 @@ public class PlayerController : MonoBehaviour
 
         bool isMovingOnGround = (Input.GetAxis("Vertical") != 0f || Input.GetAxis("Horizontal") != 0f) && isGrounded;
 
-        if(isMovingOnGround)
+        if (isMovingOnGround)
         {
             float bobbingRate = Input.GetKey(KeyCode.LeftShift) ? runBobbingRate : walkBobbingRate;
             float bobbingOffset = Input.GetKey(KeyCode.LeftShift) ? maxRunBobbingOffset : maxWalkBobbingOffset;
@@ -82,16 +94,16 @@ public class PlayerController : MonoBehaviour
         {
             audioWalk.Stop(); // Stop the audio when not moving
         }
+
         audioWalk.pitch = Input.GetKey(KeyCode.LeftShift) ? 1.75f : 1f;
 
         // Picking Items
         RaycastHit hit;
         bool cast = Physics.Raycast(head.position, head.forward, out hit, itemPickupDistance);
 
-
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (attachedObject !=null)
+            if (attachedObject != null)
             {
                 attachedObject.SetParent(null);
 
@@ -117,37 +129,66 @@ public class PlayerController : MonoBehaviour
 
                         if (attachedObject.GetComponent<Collider>() != null)
                             attachedObject.GetComponent<Collider>().enabled = false;
+
+                        if (audioPickup != null)
+                            audioPickup.PlayOneShot(audioPickup.clip);
                     }
                 }
             }
         }
     }
 
-    private void FixedUpdate(){
-       
-      
+    private void FixedUpdate()
+    {
 
         if (Physics.Raycast(transform.position, Vector3.down, out RaycastHit hit, 1f))
+        {
             isGrounded = true;
-        else isGrounded = false;
+        }
 
+        else isGrounded = false;
     }
 
-    private void LateUpdate(){
+    private void LateUpdate()
+    {
         //Vertical Rotation
         Vector3 e = head.eulerAngles;
         e.x -= Input.GetAxis("Mouse Y") * 2f;
         e.x = RestrictAngle(e.x, -85f, 85f);
         head.eulerAngles = e;
 
-        if(attachedObject != null)
+        //update the position as well as the rotation of the attached object
+        if (attachedObject != null)
         {
             attachedObject.position = head.position + head.forward * attachedDistance;
-            attachedObject.Rotate(transform.right * Input.mouseScrollDelta.y * 30f, Space.World);
+            attachedObject.Rotate(transform.right * Input.mouseScrollDelta.y * 30f, Space.World); //allows objects to be rotated forwards/backwards
+        }
+
+        // Update the position and rotation of the attached object
+        if (attachedObject != null)
+        {
+            // Set the position in front of the player with an additional height offset
+            attachedObject.position = head.position + head.forward * attachedDistance + Vector3.up * 0.5f; // Adjust height here (0.5f for example)
+
+            // Optionally rotate the object based on mouse scroll (or other input)
+            attachedObject.Rotate(transform.right * Input.mouseScrollDelta.y * 30f, Space.World); // Rotate object using mouse scroll
         }
     }
 
-    public static float RestrictAngle(float angle, float angleMin, float angleMax){
+
+    void OnCollisionStay(Collision col)                       //placed collisionstay and collision Exit before restrict angle
+    {
+        isGrounded = true;
+        isJumping = false;
+    }
+
+    void OnCollisionExit(Collision col)
+    {
+        isGrounded = false;
+    }
+
+    public static float RestrictAngle(float angle, float angleMin, float angleMax)
+    {
         //Angle of the Player
         if (angle > 180)
             angle -= 360;
@@ -163,12 +204,6 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    void OnCollisionStay(Collision col){
-        isGrounded = true;
-        isJumping = false;
-    }
-
-    void OnCollisionExit(Collision col){
-        isGrounded = false;
-    }
 }
+
+
