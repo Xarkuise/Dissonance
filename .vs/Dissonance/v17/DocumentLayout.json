@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{622888C7-AF8B-AFF0-ACE0-E07754A13C7D}|Assembly-CSharp.csproj|c:\\users\\admin\\desktop\\adrian\u0027s folder\\github\\dissonance\\assets\\scripts\\player controller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{622888C7-AF8B-AFF0-ACE0-E07754A13C7D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player controller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{622888C7-AF8B-AFF0-ACE0-E07754A13C7D}|Assembly-CSharp.csproj|c:\\users\\admin\\desktop\\adrian\u0027s folder\\github\\dissonance\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{622888C7-AF8B-AFF0-ACE0-E07754A13C7D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{622888C7-AF8B-AFF0-ACE0-E07754A13C7D}|Assembly-CSharp.csproj|C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\assets\\scripts\\donotdestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{622888C7-AF8B-AFF0-ACE0-E07754A13C7D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\donotdestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{622888C7-AF8B-AFF0-ACE0-E07754A13C7D}|Assembly-CSharp.csproj|C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\assets\\scripts\\eastereggmusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{622888C7-AF8B-AFF0-ACE0-E07754A13C7D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\eastereggmusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{622888C7-AF8B-AFF0-ACE0-E07754A13C7D}|Assembly-CSharp.csproj|C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\assets\\scripts\\viewmenuscripts\\creditspg1menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{622888C7-AF8B-AFF0-ACE0-E07754A13C7D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\viewmenuscripts\\creditspg1menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{622888C7-AF8B-AFF0-ACE0-E07754A13C7D}|Assembly-CSharp.csproj|C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\assets\\scripts\\viewmenuscripts\\creditspg2menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{622888C7-AF8B-AFF0-ACE0-E07754A13C7D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\viewmenuscripts\\creditspg2menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{622888C7-AF8B-AFF0-ACE0-E07754A13C7D}|Assembly-CSharp.csproj|C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\assets\\scripts\\viewmenuscripts\\mainmenuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{622888C7-AF8B-AFF0-ACE0-E07754A13C7D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\viewmenuscripts\\mainmenuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\Assets\\Scripts\\LightFlicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LightFlicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{622888C7-AF8B-AFF0-ACE0-E07754A13C7D}|Assembly-CSharp.csproj|C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\assets\\scripts\\musicboxproximity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{622888C7-AF8B-AFF0-ACE0-E07754A13C7D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\musicboxproximity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,86 +24,27 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\Assets\\Scripts\\Player Controller\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Controller\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\Assets\\Scripts\\Player Controller\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player Controller\\PlayerController.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAQwIYAAAAVAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwIYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T17:58:44.275Z",
+              "WhenOpened": "2025-03-15T12:09:32.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DoNotDestroy.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\Assets\\Scripts\\DoNotDestroy.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DoNotDestroy.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\Assets\\Scripts\\DoNotDestroy.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DoNotDestroy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAcAAAABAAAAAAAAAA==",
+              "Title": "MusicBoxProximity.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\Assets\\Scripts\\MusicBoxProximity.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MusicBoxProximity.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\Assets\\Scripts\\MusicBoxProximity.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MusicBoxProximity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T12:25:24.401Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EasterEggMusic.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\Assets\\Scripts\\EasterEggMusic.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EasterEggMusic.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\Assets\\Scripts\\EasterEggMusic.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EasterEggMusic.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T11:59:49.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainMenuView.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\Assets\\Scripts\\ViewMenuScripts\\MainMenuView.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ViewMenuScripts\\MainMenuView.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\Assets\\Scripts\\ViewMenuScripts\\MainMenuView.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ViewMenuScripts\\MainMenuView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T19:19:33.086Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreditsPg2MenuView.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\Assets\\Scripts\\ViewMenuScripts\\CreditsPg2MenuView.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ViewMenuScripts\\CreditsPg2MenuView.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\Assets\\Scripts\\ViewMenuScripts\\CreditsPg2MenuView.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ViewMenuScripts\\CreditsPg2MenuView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T19:19:23.421Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreditsPg1MenuView.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\Assets\\Scripts\\ViewMenuScripts\\CreditsPg1MenuView.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ViewMenuScripts\\CreditsPg1MenuView.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\Assets\\Scripts\\ViewMenuScripts\\CreditsPg1MenuView.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ViewMenuScripts\\CreditsPg1MenuView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T19:19:22.277Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LightFlicker.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\Assets\\Scripts\\LightFlicker.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LightFlicker.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Adrian\u0027s Folder\\Github\\Dissonance\\Assets\\Scripts\\LightFlicker.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LightFlicker.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAAwIIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T18:01:44.271Z"
+              "WhenOpened": "2025-03-15T06:46:32.01Z",
+              "EditorCaption": ""
             }
           ]
         }

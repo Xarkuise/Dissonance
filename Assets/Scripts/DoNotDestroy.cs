@@ -6,9 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class DoNotDestroy : MonoBehaviour
 {
-    [SerializeField] private AudioSource sfxAudioSource; // For button sound effects
-    [SerializeField] private AudioClip buttonClickSound; // Sound for button clicks
-
     void Awake()
     {
         GameObject[] musicObjs = GameObject.FindGameObjectsWithTag("MenuMusic");
@@ -34,14 +31,6 @@ public class DoNotDestroy : MonoBehaviour
                     audioSource.Stop();
                 }
             }
-        }
-    }
-
-    public void PlayButtonClickSound()
-    {
-        if (sfxAudioSource != null && buttonClickSound != null)
-        {
-            sfxAudioSource.PlayOneShot(buttonClickSound);
         }
     }
 }

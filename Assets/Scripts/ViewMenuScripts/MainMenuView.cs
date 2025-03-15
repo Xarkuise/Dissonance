@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MainMenuView : View
@@ -9,7 +10,7 @@ public class MainMenuView : View
 
     public override void Initialize()
     {
-        _startButton.onClick.AddListener(() => ViewManager.Show<StartMenuView>());
+        _startButton.onClick.AddListener(() => SceneManager.LoadScene("MainGameScene"));
         _settingsButton.onClick.AddListener(() => ViewManager.Show<SettingsMenuView>());
         _creditsButton.onClick.AddListener(() => ViewManager.Show<CreditsPg1MenuView>());
 

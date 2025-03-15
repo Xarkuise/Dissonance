@@ -61,15 +61,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ViewMenuScripts\SettingsMenuView.cs" />
+    <Compile Include="Assets\Scripts\MusicBoxProximity.cs" />
+    <Compile Include="Assets\Scripts\ViewMenuScripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\DoNotDestroy.cs" />
+    <Compile Include="Assets\Scripts\ForestColliderChildren.cs" />
     <Compile Include="Assets\Scripts\ViewMenuScripts\View.cs" />
     <Compile Include="Assets\Scripts\ViewMenuScripts\StartMenuView.cs" />
     <Compile Include="Assets\Scripts\ViewMenuScripts\CreditsPg1MenuView.cs" />
+    <Compile Include="Assets\Scripts\NextLevel.cs" />
+    <Compile Include="Assets\Scripts\MusicBoxSpawner.cs" />
     <Compile Include="Assets\Scripts\ViewMenuScripts\CreditsPg2MenuView.cs" />
     <Compile Include="Assets\Scripts\TriggerScripts\LightFlicker.cs" />
     <Compile Include="Assets\Scripts\ViewMenuScripts\ViewManager.cs" />
-    <Compile Include="Assets\Scripts\Player Controller\PlayerController.cs" />
     <Compile Include="Assets\Scripts\EasterEggMusic.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\ViewMenuScripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\ViewMenuScripts\MainMenuView.cs" />
   </ItemGroup>

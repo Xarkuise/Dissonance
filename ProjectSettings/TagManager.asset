@@ -6,11 +6,12 @@ TagManager:
   tags:
   - MenuMusic
   - pickable
+  - MusicBox
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - 
